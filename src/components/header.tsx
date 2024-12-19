@@ -81,8 +81,14 @@ export function Header() {
           </Link>
         </Button>
       </div>
-
-      <MobileNavbar />
+      <MobileNavbar>
+               <Link href="/" className="block p-2">Home</Link>
+               <Link href="/about" className="block p-2">About</Link>
+               <Link href="/services" className="block p-2">Services</Link>
+               <Link href="/engagement" className="block p-2">Engagement</Link>
+               <Link href="/pricing" className="block p-2">Pricing</Link>
+               <Link href="/faq" className="block p-2">FAQ</Link>
+        </MobileNavbar>
     </header>
   );
 }
