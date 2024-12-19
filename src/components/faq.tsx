@@ -28,7 +28,7 @@ export function Faq() {
 
         <AccordionItem value="item-1" className="border-b-0">
           <AccordionTrigger className="py-6 text-left text-lg hover:no-underline">
-            What are the "Common Use Cases" to use Oramatel?
+            What are the 'Common Use Cases' to use Oramatel?
           </AccordionTrigger>
           <AccordionContent className="text-lg text-muted-foreground whitespace-pre-line">
             {`Project Acceleration:
