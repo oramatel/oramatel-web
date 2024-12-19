@@ -1,6 +1,6 @@
 "use client";
 
-import { Icon } from "@/components/ui/icon";
+
 import { Globe, Gauge, Network, SearchCode, LayoutDashboard, Workflow } from "lucide-react";
 
 const features = [

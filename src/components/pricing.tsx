@@ -15,7 +15,7 @@ export function Pricing() {
       </div>
 
       <p className="text-lg text-muted-foreground text-balance max-w-lg text-center">
-        Pricing that fits your needs and helps you scale.
+        Pricing that fits your needs and helps you scale. Pricing subject to change without notice.
       </p>
 
       <div className="mt-7 grid w-full grid-cols-1 gap-7 lg:grid-cols-3">
