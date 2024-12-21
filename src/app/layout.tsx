@@ -5,6 +5,8 @@ import { Inter } from "next/font/google";
 
 import { cn } from "@/lib/utils";
 
+import CloudflareWebAnalyticsProvider from 'next-cloudflare-web-analytics'
+
 const fontSans = Inter({
   variable: "--font-sans",
   subsets: ["latin"],
@@ -48,6 +50,7 @@ export default function RootLayout({
         )}
       >
         {children}
+        <CloudflareWebAnalyticsProvider token={'13ec3f46a7ed402e9b3e4f26ebbf69fa'}/>
       </body>
     </html>
   );
