@@ -19,10 +19,10 @@ export function Header() {
 
   return (
     <header className="container flex items-center justify-between gap-10 py-4">
-      <Link href="/" className="flex items-center gap-3 flex-1">
+      <Link href="/" className="flex items-center gap-2 flex-1">
         <Image
-          src="https://wqnmyfkavrotpmupbtou.supabase.co/storage/v1/object/public/assets/Avatar_50599fdb-15fc-422e-8698-7949d6ab3a0a.png"
-          alt="Oramatel Logo"
+          src="/oramatel_icon.svg"
+          alt="Oramatel"
           width={32}
           height={32}
           className="size-8"

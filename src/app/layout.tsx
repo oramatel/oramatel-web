@@ -18,13 +18,17 @@ const fontHeading = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Oramatel - Professional IT Solutions",
-  description: "Elevate your technology stack with Oramatel's professional IT solutions and services.",
+  title: "Oramatel — Network Consulting for Melbourne SMBs | Cisco · Fortinet · Ubiquiti",
+  description: "Senior network engineer available for consulting, design, and managed support. 20+ years experience. Cisco, Fortinet, Ubiquiti, MikroTik. Melbourne & remote across Australia.",
   icons: {
     icon: [
       {
         url: "/favicon.ico",
         sizes: "any",
+      },
+      {
+        url: "/oramatel_icon.svg",
+        type: "image/svg+xml",
       },
       {
         url: "/icon.png",

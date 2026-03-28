@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="arcGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#84BDFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4A90D9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer ring -->
+  <circle cx="60" cy="60" r="44" fill="none" stroke="url(#arcGrad)" stroke-width="6"
+    stroke-linecap="round" stroke-dasharray="230 47"/>
+
+  <!-- Inner ring -->
+  <circle cx="60" cy="60" r="30" fill="none" stroke="#84BDFF" stroke-width="3"
+    stroke-opacity="0.45" stroke-dasharray="155 34"/>
+
+  <!-- Centre hub -->
+  <circle cx="60" cy="60" r="7" fill="url(#arcGrad)"/>
+
+  <!-- Spokes and satellite nodes -->
+  <line x1="64" y1="54" x2="84" y2="30" stroke="#84BDFF" stroke-width="2"
+    stroke-linecap="round" stroke-opacity="0.85"/>
+  <circle cx="86" cy="27" r="4" fill="#84BDFF"/>
+
+  <line x1="67" y1="60" x2="92" y2="60" stroke="#84BDFF" stroke-width="2"
+    stroke-linecap="round" stroke-opacity="0.85"/>
+  <circle cx="95" cy="60" r="4" fill="#4A90D9"/>
+
+  <line x1="55" y1="65" x2="36" y2="87" stroke="#84BDFF" stroke-width="2"
+    stroke-linecap="round" stroke-opacity="0.70"/>
+  <circle cx="33" cy="90" r="3.5" fill="#84BDFF" stroke="#4A90D9" stroke-width="1.2"/>
+</svg>
