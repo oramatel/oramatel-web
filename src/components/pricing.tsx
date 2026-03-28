@@ -30,7 +30,7 @@ export function Pricing() {
             </p>
             <div className="mt-5">
               <span className="font-heading text-4xl font-semibold">
-                $180–250
+                $200–280
               </span>
               <span className="text-sm"> AUD/hour</span>
             </div>
@@ -80,7 +80,7 @@ export function Pricing() {
             </p>
             <div className="mt-5">
               <span className="font-heading text-4xl font-semibold">
-                $1,200–1,500
+                $1,400–1,800
               </span>
               <span className="text-sm"> AUD/day</span>
             </div>
@@ -133,7 +133,7 @@ export function Pricing() {
             </p>
             <div className="mt-5">
               <span className="font-heading text-4xl font-semibold">
-                $5,000–6,000
+                $6,500–8,500
               </span>
               <span className="text-sm"> AUD/week</span>
             </div>

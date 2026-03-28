@@ -49,7 +49,7 @@ export function Faq() {
             What are your pricing models?
           </AccordionTrigger>
           <AccordionContent className="text-base text-muted-foreground">
-            We offer four engagement models: hourly support (minimum 4 hours, from $180–250 AUD/hr), daily engagements (from $1,200–1,500 AUD/day), weekly project blocks (from $5,000–6,000 AUD/week), and monthly retainers for ongoing management (price on application based on scope). After-hours and weekend support is available at a surcharge of 35–50% on the standard rate — contact us for details.
+            We offer four engagement models: hourly support (minimum 4 hours, from $200–280 AUD/hr), daily engagements (from $1,400–1,800 AUD/day), weekly project blocks (from $6,500–8,500 AUD/week), and monthly retainers for ongoing management (price on application based on scope). After-hours and weekend support is available at a surcharge of 35–50% on the standard rate — contact us for details.
           </AccordionContent>
         </AccordionItem>
 
